@@ -1,6 +1,6 @@
 <?php
 
-var_dump(PDO::getAvailableDrivers());
+echo $_ENV["USER_NAME"];
 
 
 // $dsn = 'informix:host=127.0.0.1;service=9088;database=sysmaster;server=ol_informix1410;protocol=onsoctcp;';
